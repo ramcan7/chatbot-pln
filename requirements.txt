@@ -1,0 +1,12 @@
+python-telegram-bot[webhooks]
+langchain
+langchain_huggingface
+langchain_community
+langchain_ollama
+langchain_chroma
+requests
+mysql-connector-python
+sentence-transformers
+pandas
+dotenv
+telegram
