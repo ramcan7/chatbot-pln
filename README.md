@@ -1,6 +1,6 @@
 # Chatbot PLN con Ollama + RAG
 
-Un bot de Telegram que utiliza un modelo local de Ollama (“llama3”) junto con RAG para responder preguntas sobre METRO (Perú).
+Un bot en Telegram que utiliza un modelo local de Ollama (“llama3.2:3b”) junto con RAG para responder preguntas sobre productos METRO (Perú).
 
 ---
 
@@ -48,7 +48,7 @@ NGROK_URL=https://abcd1234.ngrok-free.app
 Y asegúrate, en otra terminal, de tener Ollama corriendo:
 
 ```bash
-ollama run llama3
+ollama run llama3.2:3b
 ```
 
 ---
