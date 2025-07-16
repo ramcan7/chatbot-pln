@@ -7,7 +7,7 @@ Un bot en Telegram que utiliza un modelo local de Ollama (“llama3.2:3b”) jun
 ## 📋 Prerrequisitos
 
 - **Python 3.10+**  
-- **Ollama** instalado y modelo `llama3` disponible (`ollama run llama3`)  
+- **Ollama** instalado y modelo `llama3.2:3b` disponible (`ollama run llama3.2:3b`)  
 - **ngrok** (o túnel equivalente)  
 - Token de Telegram (`TELEGRAM_TOKEN`) obtenido de [@BotFather](https://t.me/BotFather)  
 - Clave de acceso privada (`CHATBOT_KEY`) para `/auth`
@@ -38,8 +38,8 @@ En la raíz del proyecto, crea un archivo `.env` con:
 
 ```ini
 TELEGRAM_TOKEN=123456:ABC-DEF…
-BOT_PASSWORD=tuClaveSecreta
-PORT=8443
+CHATBOT_KEY=tuClaveSecreta
+NGROK_PORT=8443
 # Opcional: si no usas auto-descubrimiento de ngrok,
 # copia aquí la URL HTTPS que te da ngrok
 NGROK_URL=https://abcd1234.ngrok-free.app
